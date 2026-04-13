@@ -14,6 +14,9 @@ function App() {
         />
         <TodoList />
       </main>
+      <footer className="text-center text-gray-600 text-xs py-6">
+        Built by Venkat · AI/ML Engineer · 2026 © All rights reserved.
+      </footer>
     </div>
   );
 }
