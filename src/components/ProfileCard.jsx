@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 function ProfileCard({ name, role, avatar }) {
   return (
-    <div className="bg-gray-800 rounded-2xl shadow-lg p-6 max-w-sm w-full flex items-center gap-4">
+    <div className="bg-gray-800 hover:bg-gray-700 rounded-2xl shadow-lg hover:shadow-xl p-6 max-w-sm w-full flex items-center gap-4 transition-all duration-300">
       <img
         src={avatar}
         alt={`${name}'s avatar`}
