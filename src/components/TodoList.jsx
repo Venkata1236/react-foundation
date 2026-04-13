@@ -27,8 +27,17 @@ function TodoList() {
 
   return (
     <div className="bg-gray-800 rounded-2xl shadow-lg p-6 w-full max-w-md">
-      <h2 className="text-white text-2xl font-bold mb-4">Todo List</h2>
-
+      <div className="flex items-center justify-between mb-4">
+        <h2 className="text-white text-2xl font-bold">Todo List</h2>
+        {todos.length > 0 && (
+            <button
+             onClick={() => setTodos([])}
+             className="text-xs text-red-400 hover:text-red-300 transition-colors"
+            >
+                Clear all
+            </button>
+        )}
+      </div>    
       <div className="flex gap-2 mb-6">
         <input
           type="text"
