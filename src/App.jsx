@@ -23,7 +23,7 @@ function App() {
           View GitHub →
         </a>
       </section>
-
+      <div className="h-px bg-gradient-to-r from-transparent via-blue-500/30 to-transparent" />
       <section className="max-w-5xl mx-auto px-6 py-8 flex flex-wrap justify-center gap-3">
         {['React', 'FastAPI', 'LangChain', 'Docker', 'AWS', 'Python', 'TailwindCSS'].map((skill) => (
           <span
