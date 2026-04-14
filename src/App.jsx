@@ -44,7 +44,7 @@ function App() {
           </span>
         ))}
       </section>
-
+        <div className="h-px bg-gradient-to-r from-transparent via-blue-500/30 to-transparent" />
       <section className="max-w-5xl mx-auto px-6 py-12">
        <h2 className="text-white text-2xl font-bold mb-6 text-center">Featured Projects</h2>
        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
