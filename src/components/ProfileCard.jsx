@@ -6,7 +6,7 @@ function ProfileCard({ name, role, avatar }) {
       <img
         src={avatar}
         alt={`${name}'s avatar`}
-        className="h-16 w-16 rounded-full object-cover border-2 border-blue-500"
+        className="h-16 w-16 rounded-full object-cover border-2 border-blue-500 hover:scale-110 transition-transform duration-300"
       />
       <div className="flex flex-col">
         <span className="text-white text-xl font-semibold leading-tight">
