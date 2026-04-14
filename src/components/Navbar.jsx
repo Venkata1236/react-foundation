@@ -4,7 +4,7 @@ const NAV_LINKS = [
   { label: 'Home', href: '#' },
   { label: 'Projects', href: '#' },
   { label: 'Blog', href: '#' },
-  { label: 'Contact', href: '#' },
+  { label: 'Contact', href: 'mailto:bommavaramvenkat2003@gmail.com' },
 ];
 
 function Navbar() {
