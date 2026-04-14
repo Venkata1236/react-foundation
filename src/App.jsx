@@ -14,14 +14,22 @@ function App() {
         <p className="text-gray-400 text-lg">
           AI/ML Engineer · Building real-world production projects
         </p>
-        
-         <a href="https://github.com/Venkata1236"
-          target="_blank"
-          rel="noreferrer"
-          className="inline-block mt-6 bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium px-6 py-2.5 rounded-lg transition-colors"
-        >
-          View GitHub →
-        </a>
+        <div className="flex justify-center gap-3 mt-6">
+          
+           <a href="https://github.com/Venkata1236"
+            target="_blank"
+            rel="noreferrer"
+            className="bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium px-6 py-2.5 rounded-lg transition-colors"
+          >
+            View GitHub →
+          </a>
+          
+           <a href="mailto:bommavaramvenkat2003@gmail.com"
+            className="border border-blue-600 hover:bg-blue-600/10 text-blue-400 text-sm font-medium px-6 py-2.5 rounded-lg transition-colors"
+          >
+            Contact Me →
+          </a>
+        </div>
       </section>
 
       <div className="h-px bg-gradient-to-r from-transparent via-blue-500/30 to-transparent" />
@@ -44,7 +52,8 @@ function App() {
           name="Venkat"
           role="AI/ML Engineer @ WTX India"
           avatar="https://api.dicebear.com/7.x/avataaars/svg?seed=venkat"
-        />location="Hyderabad, India"
+          location="Hyderabad, India"
+        />
         <TodoList />
       </main>
 
