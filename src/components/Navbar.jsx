@@ -15,6 +15,9 @@ function Navbar() {
       <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
         <span className="text-white text-xl font-bold tracking-tight">
           Venkat<span className="text-blue-500">.dev</span>
+          <span className="ml-2 text-xs bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full">
+          v1.0
+          </span>
         </span>
 
         <ul className="hidden md:flex items-center gap-8">
