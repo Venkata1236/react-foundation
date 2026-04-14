@@ -8,7 +8,7 @@ function App() {
       <Navbar />
 
       <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 text-center">
-        <h1 className="text-4xl font-bold text-white mb-3">
+        <h1 className="text-5xl font-bold text-white mb-3 tracking-tight">
           Hey, I'm <span className="text-blue-500">Venkat</span> 👋
         </h1>
         <p className="text-gray-400 text-lg">
