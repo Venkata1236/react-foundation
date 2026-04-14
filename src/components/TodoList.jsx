@@ -64,7 +64,7 @@ function TodoList() {
       ) : (
         <ul className="flex flex-col gap-2">
           {todos.map((todo) => (
-            <li key={todo.id} className="flex items-center justify-between bg-gray-700 rounded-lg px-4 py-3 group">
+            <li key={todo.id} className="flex items-center justify-between bg-gray-700 hover:bg-gray-600 rounded-lg px-4 py-3 group transition-colors duration-200">
               <span
                 onClick={() => handleToggle(todo.id)}
                 className={`flex-1 cursor-pointer text-sm transition-all ${
