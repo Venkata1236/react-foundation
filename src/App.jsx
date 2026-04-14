@@ -44,8 +44,10 @@ function App() {
         <TodoList />
       </main>
 
-      <footer className="text-center text-gray-600 text-xs py-6">
-        Built by Venkat · AI/ML Engineer · 2026 © All rights reserved.
+      <footer className="text-center text-gray-600 text-xs py-6 flex justify-center gap-6">
+        <span>Built by Venkat · 2026</span>
+        <a href="https://github.com/Venkata1236" target="_blank" rel="noreferrer" className="hover:text-gray-400 transition-colors">GitHub</a>
+        <a href="https://linkedin.com/in/venkatareddy1203" target="_blank" rel="noreferrer" className="hover:text-gray-400 transition-colors">LinkedIn</a>
       </footer>
     </div>
   );
