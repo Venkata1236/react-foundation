@@ -14,7 +14,8 @@ function ProfileCard({ name, role, avatar }) {
         </span>
         <span className="text-blue-400 text-sm font-medium mt-1">
           {role}
-        <span className="mt-2 text-xs bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full w-fit">
+        <span className="mt-2 text-xs bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full w-fit flex items-center gap-1">
+          <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
           Available for work
         </span>
         </span>
