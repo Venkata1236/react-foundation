@@ -26,7 +26,7 @@ function TodoList() {
   };
 
   return (
-    <div className="bg-gray-800 rounded-2xl shadow-lg p-6 w-full max-w-md">
+    <div className="bg-gray-800 rounded-2xl shadow-lg hover:shadow-blue-900/20 hover:shadow-xl p-6 w-full max-w-md border border-gray-700 hover:border-blue-900 transition-all duration-300">
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-white text-2xl font-bold">Todo List</h2>
         {todos.length > 0 && (
