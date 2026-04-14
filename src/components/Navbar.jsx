@@ -7,6 +7,7 @@ const NAV_LINKS = [
   { label: 'Resume', href: '#' },
   { label: 'Contact', href: 'mailto:bommavaramvenkat2003@gmail.com' },
 ];
+
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -20,9 +21,9 @@ function Navbar() {
   return (
     <nav className={`sticky top-0 z-50 border-b border-gray-700 transition-all duration-300 ${scrolled ? 'bg-gray-900/95 backdrop-blur-md shadow-lg' : 'bg-gray-900/90 backdrop-blur-sm'}`}>
       <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-        <span className="text-white text-xl font-bold tracking-tight">
-          Venkat<span className="text-blue-500">.dev</span>
-          <span className="ml-2 text-xs bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full">v1.0</span>
+        <span className="text-white text-xl font-bold tracking-tight cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+         Venkat<span className="text-blue-500">.dev</span>
+         <span className="ml-2 text-xs bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full">v1.0</span>
         </span>
 
         <ul className="hidden md:flex items-center gap-8">
