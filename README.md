@@ -26,6 +26,8 @@ main.jsx          ← Entry point, mounts App into index.html
 ---
 
 ## 📁 Project Structure
+
+```
 react-foundation/
 ├── src/
 │   ├── components/
@@ -39,8 +41,7 @@ react-foundation/
 ├── vite.config.js
 ├── package.json
 └── .gitignore
-
----
+```
 
 ## 🧠 Key Concepts
 
