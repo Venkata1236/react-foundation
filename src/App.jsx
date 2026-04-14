@@ -35,7 +35,7 @@ function App() {
       <div className="h-px bg-gradient-to-r from-transparent via-blue-500/30 to-transparent" />
 
       <section className="max-w-5xl mx-auto px-6 py-8 flex flex-wrap justify-center gap-3">
-        {['React', 'FastAPI', 'LangChain', 'LangGraph', 'CrewAI', 'Docker', 'AWS', 'Python', 'TailwindCSS', 'FAISS'].map((skill) => (
+        {['React', 'FastAPI', 'LangChain', 'LangGraph', 'CrewAI', 'Docker', 'AWS ECS', 'Python', 'TailwindCSS', 'FAISS', 'ChromaDB', 'OpenAI'].map((skill) => (
           <span
             key={skill}
             className="bg-gray-800 text-blue-400 text-sm font-medium px-4 py-1.5 rounded-full border border-gray-700 hover:border-blue-500 transition-colors"
