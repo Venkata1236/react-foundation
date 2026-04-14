@@ -45,6 +45,22 @@ function App() {
         ))}
       </section>
 
+      <section className="max-w-5xl mx-auto px-6 py-12">
+       <h2 className="text-white text-2xl font-bold mb-6 text-center">Featured Projects</h2>
+       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {[
+          { title: 'AI Job Application Assistant', tech: 'LangGraph · CrewAI · FAISS · FastAPI', desc: 'End-to-end AI pipeline for CV analysis and cover letter generation.' },
+          { title: 'React Foundation', tech: 'React · Vite · TailwindCSS v4', desc: 'Production-grade React components with atomic Git workflow.' },
+        ].map((project) => (
+          <div key={project.title} className="bg-gray-800 border border-gray-700 hover:border-blue-900 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl">
+           <h3 className="text-white font-semibold text-lg mb-2">{project.title}</h3>
+           <p className="text-gray-400 text-sm mb-3">{project.desc}</p>
+           <span className="text-blue-400 text-xs">{project.tech}</span>
+          </div>
+        ))}
+      </div>
+     </section>
+
       <div className="h-px bg-gradient-to-r from-transparent via-blue-500/30 to-transparent" />
 
       <main className="max-w-5xl mx-auto px-6 py-12 flex flex-col items-center gap-10">
