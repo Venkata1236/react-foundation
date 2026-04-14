@@ -38,12 +38,14 @@ function TodoList() {
             </button>
         )}
       </div>    
-      <div className="flex gap-2 mb-6">
+      <div className="flex flex-col gap-2 mb-6">
+        <span className="text-gray-500 text-xs text-right">{inputValue.length}/100</span>
         <input
           type="text"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           onKeyDown={handleKeyDown}
+          maxLength={100}
           placeholder="Add a new task..."
           className="flex-1 bg-gray-700 text-white placeholder-gray-400 rounded-lg px-4 py-2 outline-none focus:ring-2 focus:ring-blue-500 transition"
         />
