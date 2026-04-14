@@ -4,9 +4,9 @@ const NAV_LINKS = [
   { label: 'Home', href: '#' },
   { label: 'Projects', href: '#' },
   { label: 'Blog', href: '#' },
+  { label: 'Resume', href: '#' },
   { label: 'Contact', href: 'mailto:bommavaramvenkat2003@gmail.com' },
 ];
-
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
