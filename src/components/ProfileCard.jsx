@@ -12,6 +12,9 @@ function ProfileCard({ name, role, avatar, location }) {
         <span className="text-white text-xl font-semibold leading-tight">{name}</span>
         <span className="text-blue-400 text-sm font-medium mt-1">{role}</span>
         <span className="text-gray-500 text-xs mt-1">📍 {location}</span>
+        <a href="mailto:bommavaramvenkat2003@gmail.com" className="text-gray-500 text-xs mt-1 hover:text-blue-400 transition-colors">
+          📧 bommavaramvenkat2003@gmail.com
+        </a>
         <span className="mt-2 text-xs bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full w-fit flex items-center gap-1">
           <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
           Available for work
