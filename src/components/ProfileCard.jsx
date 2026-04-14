@@ -18,6 +18,9 @@ function ProfileCard({ name, role, avatar, location }) {
         <a href="tel:+919121507345" className="text-gray-500 text-xs mt-1 hover:text-blue-400 transition-colors">
         📞 +91 9121507345
         </a>
+        <a href="https://github.com/Venkata1236" target="_blank" rel="noreferrer" className="text-gray-500 text-xs mt-1 hover:text-blue-400 transition-colors">
+        🐙 github.com/Venkata1236
+        </a>
         <span className="mt-2 text-xs bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full w-fit flex items-center gap-1">
           <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
           Available for work
