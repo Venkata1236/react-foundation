@@ -44,7 +44,7 @@ function App() {
           name="Venkat"
           role="AI/ML Engineer @ WTX India"
           avatar="https://api.dicebear.com/7.x/avataaars/svg?seed=venkat"
-        />
+        />location="Hyderabad, India"
         <TodoList />
       </main>
 
