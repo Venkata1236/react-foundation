@@ -78,6 +78,14 @@ npm run dev
 - **prop-types** — Runtime prop validation
 
 ---
+## 🚀 Deploy to Vercel
+
+```bash
+npm run build
+npx vercel --prod
+```
+
+Live URL: https://react-foundation-venkat.vercel.app
 
 ## 👤 Author
 
