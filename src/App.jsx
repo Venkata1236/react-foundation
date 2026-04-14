@@ -11,8 +11,8 @@ function App() {
         <h1 className="text-5xl font-bold text-white mb-3 tracking-tight">
           Hey, I'm <span className="text-blue-500">Venkat</span> 👋
         </h1>
-        <p className="text-gray-400 text-lg">
-          AI/ML Engineer · Building real-world production projects
+        <p className="text-gray-400 text-lg max-w-md mx-auto leading-relaxed">
+          AI/ML Engineer · Building 20 real-world production projects across 20 industry domains
         </p>
         <div className="flex justify-center gap-3 mt-6">
           
