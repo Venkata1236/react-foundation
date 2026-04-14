@@ -53,7 +53,10 @@ function TodoList() {
       </div>
 
       {todos.length === 0 ? (
-        <p className="text-gray-400 text-sm text-center py-4">No todos yet — add something above ☝️</p>
+        <div className="flex flex-col items-center py-6 gap-2">
+          <span className="text-4xl">📝</span>
+          <p className="text-gray-400 text-sm text-center">No todos yet — add something above</p>
+        </div>
       ) : (
         <ul className="flex flex-col gap-2">
           {todos.map((todo) => (
