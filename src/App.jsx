@@ -16,6 +16,16 @@ function App() {
         </p>
       </section>
 
+      <section className="max-w-5xl mx-auto px-6 py-8 flex flex-wrap justify-center gap-3">
+        {['React', 'FastAPI', 'LangChain', 'Docker', 'AWS', 'Python', 'TailwindCSS'].map((skill) => (
+          <span
+           key={skill}
+           className="bg-gray-800 text-blue-400 text-sm font-medium px-4 py-1.5 rounded-full border border-gray-700 hover:border-blue-500 transition-colors"
+          >
+            {skill}
+          </span>
+        ))}
+      </section>
       <main className="max-w-5xl mx-auto px-6 py-12 flex flex-col items-center gap-10">
         <ProfileCard
           name="Venkat"
