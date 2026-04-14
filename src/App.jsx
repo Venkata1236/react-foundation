@@ -51,6 +51,8 @@ function App() {
         {[
           { title: 'AI Job Application Assistant', tech: 'LangGraph · CrewAI · FAISS · FastAPI', desc: 'End-to-end AI pipeline for CV analysis and cover letter generation.' },
           { title: 'React Foundation', tech: 'React · Vite · TailwindCSS v4', desc: 'Production-grade React components with atomic Git workflow.' },
+          { title: 'RAG Pipeline', tech: 'FAISS · ChromaDB · LangChain · FastAPI', desc: 'Retrieval-Augmented Generation pipeline with vector search.' },
+          { title: 'LangGraph Workflow', tech: 'LangGraph · OpenAI · FastAPI', desc: 'Multi-node AI workflow orchestration with state management.' },
         ].map((project) => (
           <div key={project.title} className="bg-gray-800 border border-gray-700 hover:border-blue-900 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl">
            <h3 className="text-white font-semibold text-lg mb-2">{project.title}</h3>
