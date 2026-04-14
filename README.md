@@ -6,6 +6,7 @@
 ![Vite](https://img.shields.io/badge/Vite-8-purple)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4-cyan)
 ![Node](https://img.shields.io/badge/Node-v24-green)
+![Commits](https://img.shields.io/badge/Commits-30+-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen)
 
 ---
