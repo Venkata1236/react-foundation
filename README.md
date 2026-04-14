@@ -69,6 +69,13 @@ npm run dev
 - App → http://localhost:5173
 
 ---
+## 🧪 Components API
+
+| Component | Props | Description |
+|---|---|---|
+| `ProfileCard` | `name, role, avatar, location` | Displays user profile with links |
+| `TodoList` | none | Self-contained todo manager with progress bar |
+| `Navbar` | none | Sticky nav with mobile hamburger + scroll effect |
 
 ## 📦 Tech Stack
 
